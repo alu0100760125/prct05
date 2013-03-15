@@ -1,0 +1,142 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Presentación con Beamer.}
+\author[Tiffany López Nicholson]{Tiffany López Nicholson.}
+\date[15 de marzo de 2013]{15 de marzo de 2013}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetheme{classic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \titlepage
+
+  \begin{scriptsize}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{scriptsize}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Utilizando Beamer.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Utilizando Beamer.}
+
+\begin{definicion}
+  Para crear secciones es muy sencillo, utilizando comandos como en \LaTeX.
+
+  En esta presentación mostraré ejemplos de como se escriben fórmulas.
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Fórmulas.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Fórmulas.}
+
+\begin{block}{Ejemplo}
+  \begin{itemize}
+  \item
+  Fórmula de límites. 
+  \pause
+
+  \item
+  Fórmula de la derivada con límites.
+  \pause
+
+  \item
+  Fórmula para hallar la solución de una ecuación cuadrática.
+  \pause
+
+  \item
+  Fórmula para hallar el área de un círculo.
+  \pause
+
+  \item
+  Fórmula para hallar la longitud de una circunferencia.
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+  \subsection{Fórmula de límites y de la derivada.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Fórmula de límites y de la derivada.}
+\begin{itemize}
+  \item
+  Fórmula de los límites.\newline
+  $lim_{x-a} f(x) = l$, siendo a un número real o infinito.\newline
+  
+  \item
+  Fórmula de la derivada.\newline
+  $f'(x)=lim_{h-0} \frac{f(x+h)-f(x)}{h}$.
+\end{itemize}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+  \subsection{Fórmula para hallar la solución de una ecuación cuadrática.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fórmula para hallar la solución de una ecuación cuadrática.}
+  Sea $y= ax^2 + bx + c$, donde a no sea 0.
+  Para hallar sus soluciones usamos:\newline
+  \begin{center}
+  $x_1 = \frac{-b+\sqrt{b^{2}-4ac}}{2a}$, $x_2 = \frac{-b-\sqrt{b^{2}-4ac}}{2a}$
+  \end{center}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  \subsection{Fórmula para hallar el área de un círculo y la longitud de la circunferencia.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fórmula para hallar el área de un círculo y la longitud de la circunferencia.}
+  \begin{itemize}
+  \item
+  Fórmula para hallar el área.\newline
+  Sea r el radio del círculo.
+  \begin{center}
+$A_c = \pi x r^2$
+  \end{center}
+  
+  \item
+  Fórmula para hallar la longitud.\newline
+  \begin{center}
+  $L_c = 2 x \pi x r$. 
+  \end{center}
+\end{itemize}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\end{document}

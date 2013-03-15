@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.07pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Utilizando Beamer.}{5}{0}{1}
+\beamer@sectionintoc {2}{F\IeC {\'o}rmulas.}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{F\IeC {\'o}rmula de l\IeC {\'\i }mites y de la derivada.}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{F\IeC {\'o}rmula para hallar la soluci\IeC {\'o}n de una ecuaci\IeC {\'o}n cuadr\IeC {\'a}tica.}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{F\IeC {\'o}rmula para hallar el \IeC {\'a}rea de un c\IeC {\'\i }rculo y la longitud de la circunferencia.}{13}{0}{2}
+\beamer@sectionintoc {3}{Bibliograf\IeC {\'\i }a}{14}{0}{3}
